@@ -1,0 +1,43 @@
+body {background: url(https://i.imgur.com/MJAkxbh.png);
+
+        }
+header {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.25em;
+  }
+.nav {background-color: hsl(180, 85%, 20%);
+        color: white;}
+div:hover{transform: scale(1.1)}
+        
+.my-profile {text-align: center;
+             color:#ccc;
+             font-style: italic;
+             font-size: 50px;
+            }
+.biog {font-size: 30px
+    }
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }  
+      /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+        }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+        }
+table#t01 {
+    width: 100%; 
+    background-color: #f1f1c1;
+        }
